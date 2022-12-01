@@ -1,10 +1,12 @@
+// Build cmd: g++ chap1_demo1.2.cpp -o chap1_demo1.2
+
 #include <iostream>
-// #include <thread>
-#include "mingw.thread.h"
+#include <thread>
+// #include "mingw.thread.h"
 
 // Start of 2nd thread
 void hello() {
-    std::cout <<"Hello in thread";
+    std::cout <<"Hello in thread\n";
 }
 
 // Start of initial thread (or 1st thread)
